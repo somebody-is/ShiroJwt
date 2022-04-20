@@ -28,7 +28,7 @@ public class RolePermission implements Serializable {
     @Column(name = "rp_role_id")
     private Integer roleId;
 
-    @Column(name = "rp_permission_d")
+    @Column(name = "rp_permission_id")
     private Integer permissionId;
 
     @Column(name = "rp_createTime")
